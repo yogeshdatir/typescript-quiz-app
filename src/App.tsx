@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
+import QuestionCard from './components/QuestionCard';
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
-      Quiz
+      <QuestionCard />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
